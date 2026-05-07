@@ -43,7 +43,7 @@ with open(filename) as f:
     ]
     layout = {
         "title": {
-            "text": "Goals Scored Per Each Team",
+            "text": "Goals Scored Per Each Team During 2025 Season",
             "font": {"size": 24},
             "x": 0.5,
         },
