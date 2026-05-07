@@ -35,8 +35,9 @@ with open(filename) as f:
     data = [
         {
             "type": "bar",
-            "x": teams,
-            "y": goals_scored,
+            "orientation": "h",
+            "x": goals_scored,
+            "y": teams,
             "marker": {"color": colors, "line": {"color": "black", "width": 1}},
         }
     ]
@@ -46,8 +47,8 @@ with open(filename) as f:
             "font": {"size": 24},
             "x": 0.5,
         },
-        "xaxis": {"title": {"text": "Teams", "font": {"size": 16}}},
-        "yaxis": {"title": {"text": "Goals", "font": {"size": 16}}},
+        "xaxis": {"title": {"text": "Goals", "font": {"size": 16}}},
+        "yaxis": {"title": {"text": "Teams", "font": {"size": 16}}},
     }
     fig = {"data": data, "layout": layout}
 
