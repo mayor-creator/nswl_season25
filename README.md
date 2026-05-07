@@ -17,11 +17,11 @@ This project analyzes the goals scored during the 2025 NWSL season using Python 
 ## How it Works 
 1. The program reads goals data from a CSV file.
 2. Team names and goals scored are extracted.
-3. A horizontal bar chart is created using Pllotly.
+3. A horizontal bar chart is created using Plotly.
 4. The visualization is exported as an HTML file. 
 
 ## Visualization
-![bar plot of goals scored per each team] ("/2025goals.png")
+![NWSL Goals Chart](2025goals.png)
 
 ## Running the project
 - Install Plotly 
